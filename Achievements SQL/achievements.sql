@@ -151,7 +151,7 @@ INSERT INTO `achievements` (`id`, `name`, `category`, `level`, `reward_amount`, 
 (138, 'MonsterPlantTreater', 'explore', 3, 0, 0, 30, 130),
 (139, 'MonsterPlantTreater', 'explore', 4, 0, 0, 40, 380),
 (140, 'MonsterPlantTreater', 'explore', 5, 0, 0, 50, 1380),
-(141, 'MonsterPlantBreeder', 'explore', 1, 0, 0, 10, 8),
+(141, 'MonsterPlantBreeder', 'explore', 1, 0, 0, 10, 5),
 (142, 'MonsterPlantBreeder', 'explore', 2, 0, 0, 20, 30),
 (143, 'MonsterPlantBreeder', 'explore', 3, 0, 0, 30, 100),
 (144, 'MonsterPlantBreeder', 'explore', 4, 0, 0, 40, 380),
@@ -1281,5 +1281,5 @@ ALTER TABLE `achievements`
   ADD UNIQUE KEY `id` (`id`) USING BTREE;
 
 ALTER TABLE `achievements`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1264;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1265;
 COMMIT;
