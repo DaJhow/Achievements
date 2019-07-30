@@ -999,7 +999,8 @@ INSERT INTO `achievements` (`id`, `name`, `category`, `level`, `reward_amount`, 
 (986, 'AdvancedHorticulturist', 'games', 6, 60, 0, 60, 40),
 (987, 'AdvancedHorticulturist', 'games', 7, 70, 0, 70, 50),
 (988, 'AdvancedHorticulturist', 'games', 8, 80, 0, 80, 60),
-(989, 'AdvancedHorticulturist', 'games', 9, 90, 0, 90, 70),
+(989, 'AdvancedHorticulturist', 'games', 9, 90, 0, 90, 70);
+INSERT INTO `achievements` (`id`, `name`, `category`, `level`, `reward_amount`, `reward_type`, `points`, `progress_needed`) VALUES
 (990, 'AdvancedHorticulturist', 'games', 10, 100, 0, 200, 80),
 (991, 'ffusion', 'games', 1, 10, 0, 10, 1),
 (992, 'ffusion', 'games', 2, 20, 0, 20, 2),
@@ -1274,12 +1275,22 @@ INSERT INTO `achievements` (`id`, `name`, `category`, `level`, `reward_amount`, 
 (1261, 'SelfModForumCanReadSeen', 'tools', 1, 0, 0, 10, 1),
 (1262, 'SelfModForumCanPostSeen', 'tools', 1, 0, 0, 10, 1),
 (1263, 'SelfModForumCanPostThrdSeen', 'tools', 1, 0, 0, 10, 1),
-(1264, 'SelfModForumCanModerateSeen', 'tools', 1, 0, 0, 10, 1);
+(1264, 'SelfModForumCanModerateSeen', 'tools', 1, 0, 0, 10, 1),
+(1265, 'Festival', 'games', 1, 10, 0, 10, 2),
+(1266, 'Festival', 'games', 2, 20, 0, 20, 4),
+(1267, 'Festival', 'games', 3, 30, 0, 30, 6),
+(1268, 'Festival', 'games', 4, 40, 0, 40, 8),
+(1269, 'Festival', 'games', 5, 50, 0, 50, 10),
+(1270, 'Festival', 'games', 6, 60, 0, 60, 12),
+(1271, 'Festival', 'games', 7, 70, 0, 70, 14),
+(1272, 'Festival', 'games', 8, 80, 0, 80, 16),
+(1273, 'Festival', 'games', 9, 90, 0, 90, 18),
+(1274, 'Festival', 'games', 10, 100, 0, 100, 20);
 
 ALTER TABLE `achievements`
   ADD PRIMARY KEY (`name`,`level`) USING BTREE,
   ADD UNIQUE KEY `id` (`id`) USING BTREE;
 
 ALTER TABLE `achievements`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1265;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1275;
 COMMIT;
