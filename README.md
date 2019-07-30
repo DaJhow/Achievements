@@ -1,6 +1,8 @@
 # Achievements
 Wulez Achievements based on Habbo.com achievements to Arcturus Emulator.
 
+<img src="https://raw.githubusercontent.com/Wulles/eyethatseeseverything/master/achievements/ragezone.gif" align="center">
+
 ### Progress and Compatibility
 
 > Currently work Since Arcturus 1.12, and Since Morningstar 2.
