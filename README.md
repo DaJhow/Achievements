@@ -1,7 +1,7 @@
 # Achievements
 Wulez Achievements based on Habbo.com achievements to Arcturus Emulator.
 
-<img src="https://raw.githubusercontent.com/Wulles/eyethatseeseverything/master/achievements/ragezone.gif" align="center">
+<img src="https://raw.githubusercontent.com/Wulles/eyethatseeseverything/master/achievements/ragezone.gif" align="right">
 
 ### Progress and Compatibility
 
