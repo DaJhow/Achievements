@@ -5,7 +5,7 @@ Wulez Achievements based on Habbo.com achievements to Arcturus Emulator.
 
 ### Progress, Compatibility and Information
 
-> Currently work Since Arcturus 1.12, and Since Morningstar 2.
+> Currently work Since Arcturus 1.12.
 
 > Last update: *Suncity crafts*.
 
@@ -22,4 +22,3 @@ Wulez Achievements based on Habbo.com achievements to Arcturus Emulator.
 * Habbo.
 * Wulles: Project.
 * Wesley: Arcturus.
-* John: Morningstar.
